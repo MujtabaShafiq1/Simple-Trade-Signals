@@ -54,15 +54,6 @@ export const NAV_OPTIONS = {
   Contact: "contact",
 };
 
-export const GOVERNANCE_OUTLINE = [
-  "Always in sync",
-  "Advance analytics",
-  "Sales tracker",
-  "Sales optimize",
-];
-
-export const FEATURES_HEADING = "Three Problems, One Solution: ManagEaze";
-
 export const WHAT_WE_OFFER = [
   {
     Icon: FaChartLine,

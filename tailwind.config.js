@@ -8,8 +8,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "gradient-linear":
-          "linear-gradient(to bottom right, #00bf63, #1791c8)"
+        "gradient-linear": "linear-gradient(to bottom right, #00bf63, #1791c8)",
       },
       colors: {
         primary: {
@@ -25,6 +24,13 @@ module.exports = {
         neutral: {
           100: "#000504",
           50: "#FFFFFF",
+        },
+        warning: {
+          400: "#FF0F00",
+          300: "#FF271A",
+          200: "#FF6F66",
+          100: "#FF9F99",
+          50: "#FFE7E6",
         },
       },
     },

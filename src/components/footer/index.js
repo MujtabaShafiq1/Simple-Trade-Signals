@@ -4,10 +4,10 @@ import { SOCIAL_ICONS } from "sts/utils/constants";
 
 const Footer = () => {
   return (
-    <footer className="text-neutral-100 border-t">
+    <footer className="text-neutral-100 border-t bg-gray-100">
       <div className="container mx-auto p-4 gap-8 flex flex-col justify-between items-center text-center">
         <div className="flex flex-col gap-4">
-          <Image src="/assets/logo.svg" width={180} height={180} alt="logo" />
+          <Image src="/assets/logo.png" width={180} height={180} alt="logo" />
           <div className="flex justify-center items-center">
             {SOCIAL_ICONS.map(({ Icon, label, link }) => (
               <a

@@ -9,7 +9,7 @@ function Banner() {
         id={NAV_OPTIONS.Home}
         className="bg-gradient-linear text-neutral-50 flex flex-col items-center justify-center text-center gap-4 min-h-[90vh] min-w-full">
         <div className="max-w-screen-md">
-          <div className="font-bold text-6xl md:text-7xl mb-10">
+          <div className="flex flex-wrap justify-center font-bold text-5xl md:text-7xl mb-10">
             <h1>Welcome to</h1>
             <span className="text-primary-300">&nbsp;Simple</span>
             <span className="text-neutral-50">&nbsp;Trade</span>
@@ -27,12 +27,12 @@ function Banner() {
       </section>
 
       {/* Stats Section */}
-      <section className="relative -mt-20 w-full bg-neutral-50 mx-auto max-w-screen-2xl rounded-xl shadow-lg">
-        <div className="flex justify-center gap-8 py-4">
+      <section className="relative -mt-20 w-11/12 bg-neutral-50 mx-auto max-w-screen-2xl rounded-xl shadow-lg">
+        <div className="flex flex-wrap justify-center gap-8 py-4">
           {STATS.map(({ Icon, text, subText }) => (
             <div
               key={text}
-              className="flex flex-wrap flex-col items-center text-neutral-100 w-full sm:w-1/2 md:w-1/4">
+              className="flex flex-col text-center items-center text-neutral-100 w-full sm:w-1/3 md:w-1/4 lg:w-1/6">
               <Icon className="text-primary-300 text-5xl mb-4" />
               <span className="font-bold text-xl mb-2">{text}</span>
               <p className="font-light text-lg">{subText}</p>

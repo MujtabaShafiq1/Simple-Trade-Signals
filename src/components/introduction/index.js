@@ -7,7 +7,7 @@ function Introduction() {
   return (
     <section className="flex flex-col gap-4 justify-center items-center my-32">
       <div className="max-w-screen-md text-neutral-100 flex flex-col items-center justify-center text-center gap-4 mb-12">
-        <div className="font-bold text-6xl md:text-7xl mb-10">
+        <div className="font-bold text-5xl md:text-7xl mb-10">
           <h1>Why Trust Us?</h1>
         </div>
         <h6 className="text-lg md:text-2xl">
