@@ -23,11 +23,11 @@ function Header() {
     <nav
       className={`z-50 fixed min-w-full ${
         scroll > 600 || open
-          ? "bg-gray-100 bg-opacity-75 border-b backdrop-blur-lg text-primary-300"
+          ? "bg-gray-100 bg-opacity-85 border-b backdrop-blur-lg text-primary-300"
           : "bg-transparent text-neutral-50"
       }`}>
-      <div className="max-w-screen-2xl border-none flex flex-wrap items-center justify-between px-4 mx-auto h-[120px]">
-        <Image src="/assets/logo.png" width={120} height={120} alt="logo" />
+      <div className="max-w-screen-2xl border-none flex flex-wrap items-center justify-between px-4 mx-auto h-[80px]">
+        <Image src="/assets/logo.png" width={80} height={80} alt="logo" />
         <MenuIcon
           id="dropdownHoverButton"
           data-dropdown-toggle="dropdownHover"
