@@ -16,6 +16,17 @@
   }
 }
 
+@font-face {
+  font-family: 'Bricolage Grotesque';
+  src: url('/fonts/BricolageGrotesque-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: bold;
+}
+
+.bricolage-font {
+  font-family: 'Bricolage Grotesque', sans-serif;
+}
+
 html {
   scroll-behavior: smooth;
 }

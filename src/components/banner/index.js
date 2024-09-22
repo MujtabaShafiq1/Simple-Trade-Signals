@@ -9,13 +9,12 @@ function Banner() {
         id={NAV_OPTIONS.Home}
         className="bg-gradient-linear text-neutral-50 flex flex-col items-center justify-center text-center gap-4 min-h-[90vh] min-w-full p-4">
         <div className="max-w-screen-md">
-          <div className="flex flex-wrap justify-center font-bold text-5xl md:text-7xl mb-10">
-            <h1>Welcome to</h1>
-            <span className="text-neutral-50">&nbsp;Simple</span>
-            <span className="text-neutral-50">&nbsp;Trade</span>
-            <span className="text-neutral-50">&nbsp;Signals</span>
+          <div className="flex flex-wrap justify-center mb-10">
+            <h1 className="bricolage-font font-bold text-5xl md:text-7xl">
+              Welcome to Simple Trade Signals
+            </h1>
           </div>
-          <h6 className="font-medium text-lg md:text-2xl">
+          <h6 className="text-lg md:text-2xl">
             At the forefront of financial markets, we specialize in delivering expert
             <span className="text-primary-300 font-bold">&nbsp;Forex&nbsp;</span>and
             <span className="text-primary-300 font-bold">&nbsp;PSX&nbsp;</span>analysis
