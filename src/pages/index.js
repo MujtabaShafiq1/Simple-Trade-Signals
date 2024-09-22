@@ -1,9 +1,10 @@
 import Banner from "sts/components/banner";
-import Introduction from "sts/components/introduction";
 import Offer from "sts/components/offer";
+import About from "sts/components/about";
 import Pricing from "sts/components/pricing";
 import Contact from "sts/components/contact";
-import About from "sts/components/about";
+import Introduction from "sts/components/introduction";
+import TradeImages from "sts/components/trades/images";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Introduction />
       <Offer />
       <About />
+      <TradeImages />
       <Pricing />
       <Contact />
     </main>
