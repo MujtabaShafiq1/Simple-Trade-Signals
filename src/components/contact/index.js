@@ -50,7 +50,7 @@ function Contact() {
       </div>
       <div className="flex flex-col md:flex-row justify-center items-center gap-16 w-full max-w-6xl">
         <ContactIcon className="hidden md:block h-96 w-96 text-primary-100" />
-        <form className="w-full md:w-[600px] space-y-4 text-neutral-100">
+        <form className="w-full space-y-4 text-neutral-100">
           <div className="space-y-1">
             <label className="text-sm font-medium pl-1" htmlFor="name">
               Name
@@ -63,7 +63,7 @@ function Contact() {
               value={name}
               onChange={(e) => setName(e.target.value)}
             />
-            <p className="text-sm text-warning-200">{errors?.name}</p>
+            <p className="text-sm text-warning-100">{errors?.name}</p>
           </div>
           <div className="space-y-1">
             <label className="text-sm font-medium pl-1" htmlFor="email">
@@ -77,7 +77,7 @@ function Contact() {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
             />
-            <p className="text-sm text-warning-200">{errors?.email}</p>
+            <p className="text-sm text-warning-100">{errors?.email}</p>
           </div>
           <div className="space-y-1">
             <label className="text-sm font-medium pl-1" htmlFor="phoneNo">
@@ -91,7 +91,7 @@ function Contact() {
               value={phoneNo}
               onChange={(e) => setPhoneNo(e.target.value)}
             />
-            <p className="text-sm text-warning-200">{errors?.phoneNo}</p>
+            <p className="text-sm text-warning-100">{errors?.phoneNo}</p>
           </div>
           <div className="space-y-1">
             <label className="text-sm font-medium pl-1" htmlFor="description">
@@ -107,7 +107,7 @@ function Contact() {
               style={{ resize: "none" }}
               onChange={(e) => setDescription(e.target.value)}
             />
-            <p className="text-sm text-warning-200">{errors?.description}</p>
+            <p className="text-sm text-warning-100">{errors?.description}</p>
           </div>
           <Button className="mx-auto w-[300px]" onClick={contactHandler}>
             Send

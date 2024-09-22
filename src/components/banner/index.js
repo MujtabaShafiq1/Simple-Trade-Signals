@@ -7,18 +7,18 @@ function Banner() {
       {/* Banner Section */}
       <section
         id={NAV_OPTIONS.Home}
-        className="bg-gradient-linear text-neutral-50 flex flex-col items-center justify-center text-center gap-4 min-h-[90vh] min-w-full">
+        className="bg-gradient-linear text-neutral-50 flex flex-col items-center justify-center text-center gap-4 min-h-[90vh] min-w-full p-4">
         <div className="max-w-screen-md">
           <div className="flex flex-wrap justify-center font-bold text-5xl md:text-7xl mb-10">
             <h1>Welcome to</h1>
-            <span className="text-primary-300">&nbsp;Simple</span>
+            <span className="text-neutral-50">&nbsp;Simple</span>
             <span className="text-neutral-50">&nbsp;Trade</span>
-            <span className="text-secondary-300">&nbsp;Signals</span>
+            <span className="text-neutral-50">&nbsp;Signals</span>
           </div>
           <h6 className="font-medium text-lg md:text-2xl">
             At the forefront of financial markets, we specialize in delivering expert
-            <span className="text-secondary-300 font-bold">&nbsp;Forex&nbsp;</span> and
-            <span className="text-secondary-300 font-bold">&nbsp;PSX&nbsp;</span> analysis
+            <span className="text-primary-300 font-bold">&nbsp;Forex&nbsp;</span>and
+            <span className="text-primary-300 font-bold">&nbsp;PSX&nbsp;</span>analysis
             and signals. Whether you're a seasoned investor or just beginning your trading
             journey, our platform offers insights and actionable data to help you navigate
             market complexities with confidence and ease.

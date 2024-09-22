@@ -8,29 +8,22 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "gradient-linear": "linear-gradient(to bottom right, #00bf63, #1791c8)",
+        "gradient-linear": "linear-gradient(to bottom, rgba(0, 190, 96, 1), rgba(0, 0, 0, 1))"
+        // "gradient-linear": "linear-gradient(to bottom right, rgba(0, 190, 96, 1), rgba(0, 0, 0, 1))"
+        // "gradient-linear": "radial-gradient(circle, rgba(0, 190, 96, 1), rgba(0, 0, 0, 1))"
       },
       colors: {
         primary: {
-          300: "#00bf63", // 100 %
-          200: "#00bf63", // 50 %
-          100: "#00bf63", // 30 %
-        },
-        secondary: {
-          300: "#1791c8", // 100 %
-          200: "#1791c8", // 50 %
-          100: "#1791c8", // 30 %
+          300: "rgba(0, 190, 96, 1)",
+          200: "rgba(0, 190, 96, 0.75)",
+          100: "rgba(0, 190, 96, 0.5)",
         },
         neutral: {
           100: "#000504",
           50: "#FFFFFF",
         },
         warning: {
-          400: "#FF0F00",
-          300: "#FF271A",
-          200: "#FF6F66",
-          100: "#FF9F99",
-          50: "#FFE7E6",
+          100: "#FF6F66",
         },
       },
     },

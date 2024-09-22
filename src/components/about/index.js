@@ -4,7 +4,7 @@ import { Button } from "../base/button";
 
 const About = () => {
   return (
-    <section className="max-w-screen-xl w-11/12 border-none flex items-center justify-between p-12 my-32 mx-auto bg-secondary-100 rounded-3xl">
+    <section className="max-w-screen-xl w-11/12 border-none flex items-center justify-between p-12 my-32 mx-auto bg-gradient-linear rounded-3xl">
       <div className="w-full md:1/2 text-neutral-50 space-y-6">
         <h1 className="font-bold text-5xl md:text-7xl mb-10">
           Unlock Your Trading Potential
