@@ -10,7 +10,7 @@ function Banner() {
         className="bg-gradient-linear text-neutral-50 flex flex-col items-center justify-center text-center gap-4 min-h-[90vh] min-w-full p-4">
         <div className="max-w-screen-md">
           <div className="flex flex-wrap justify-center mb-10">
-            <h1 className="bricolage-font font-bold text-5xl md:text-7xl">
+            <h1 className="bricolage-font font-semibold text-5xl md:text-7xl">
               Welcome to Simple Trade Signals
             </h1>
           </div>

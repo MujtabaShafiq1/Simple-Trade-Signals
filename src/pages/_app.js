@@ -13,6 +13,7 @@ export default function App({ Component, pageProps }) {
         <link rel="icon" href="/assets/logo.png" type="image/svg+xml" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <link rel="manifest" href="/manifest.webmanifest" />
+        <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap" rel="stylesheet" />
       </Head>
 
       <SnackbarProvider
